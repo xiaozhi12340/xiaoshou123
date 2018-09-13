@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" width="1920" height="2273" layout="absolute">
+	<mx:Style>
+		Text {
+			fontFamily:MicrosoftYaHei;
+			fontSize:14;
+			color:#4C4C4C;
+		}
+		.labelStyle {
+			fontFamily:MicrosoftYaHei;
+			fontSize:18;
+			color:#540154;
+		}
+		.labelStyle2 {
+			fontFamily:MicrosoftYaHei;
+			fontSize:36;
+			color:#000000;
+		}
+		.labelStyle3 {
+			fontFamily:ArialMT;
+			fontSize:14;
+			color:#000000;
+		}
+		.labelStyle4 {
+			fontFamily:MicrosoftYaHei;
+			fontSize:24;
+			color:#C7CACC;
+		}
+		.labelStyle5 {
+			fontFamily:MicrosoftYaHei;
+			fontSize:16;
+			color:#FA76F9;
+		}
+		.labelStyle6 {
+			fontFamily:MicrosoftYaHei;
+			fontSize:16;
+			color:#CCCCCC;
+		}
+		.labelStyle7 {
+			fontFamily:MicrosoftYaHei;
+			fontSize:16;
+			color:#E5E5E5;
+		}
+		.labelStyle8 {
+			fontFamily:SimSun;
+			fontSize:12;
+			color:#999999;
+		}
+		.labelStyle9 {
+			fontFamily:MicrosoftYaHei;
+			fontSize:14;
+			color:#CCCCCC;
+		}
+		.labelStyle10 {
+			fontFamily:MicrosoftYaHei;
+			fontSize:14;
+			color:#00D6FD;
+		}
+		.labelStyle11 {
+			fontFamily:MicrosoftYaHei;
+			fontSize:16;
+			color:#00D5FD;
+		}
+		.labelStyle12 {
+			fontFamily:SimSun;
+			fontSize:12;
+			color:#CCCCCC;
+		}
+		.labelStyle13 {
+			fontFamily:MicrosoftYaHei;
+			fontSize:24;
+			color:#333333;
+		}
+		.labelStyle14 {
+			fontFamily:MicrosoftYaHei;
+			fontSize:16;
+			color:#4C4C4C;
+		}
+		.labelStyle15 {
+			fontFamily:MicrosoftYaHei;
+			fontSize:16;
+			color:#550153;
+		}
+		.labelStyle16 {
+			fontFamily:MicrosoftYaHei;
+			fontSize:24;
+			color:#4C4C4C;
+		}
+		.labelStyle17 {
+			fontFamily:MicrosoftYaHei;
+			fontSize:14;
+			color:#4C4C4C;
+		}
+		.labelStyle18 {
+			fontFamily:MicrosoftYaHei;
+			fontSize:16;
+			color:#333333;
+		}
+		.labelStyle19 {
+			fontFamily:MicrosoftYaHei;
+			fontSize:14;
+			color:#4B4B4B;
+		}
+		.labelStyle20 {
+			fontFamily:MicrosoftYaHei;
+			fontSize:14;
+			color:#550153;
+		}
+		.labelStyle21 {
+			fontFamily:MicrosoftYaHei;
+			fontSize:14;
+			color:#333333;
+		}
+		.labelStyle22 {
+			fontFamily:MicrosoftYaHei;
+			fontSize:14;
+			color:#191919;
+		}
+		.labelStyle23 {
+			fontFamily:MicrosoftYaHei;
+			fontSize:12;
+			color:#666666;
+		}
+		.labelStyle24 {
+			fontFamily:SimSun;
+			fontSize:12;
+			color:#333333;
+		}
+	</mx:Style>
+	<mx:Image id="图层 0" source="images/图层 0.gif" x="-2" y="0" width="1920" height="3000"/>
+	<mx:Image id="669pic_f21db766bed91774" source="images/669pic_f21db766bed91774.gif" x="0" y="-76" width="1920" height="1079"/>
+	<mx:Image id="色相/饱和度 2" source="images/色相饱和度 2.gif" x="0" y="-76" width="1920" height="1079"/>
+	<mx:Image id="色相/饱和度 3 拷贝" source="images/色相饱和度 3 拷贝.gif" x="1521" y="403" width="507" height="1333"/>
+	<mx:Image id="色相/饱和度 3" source="images/色相饱和度 3.gif" x="-102" y="-105" width="609" height="1397"/>
+	<mx:Image id="色相/饱和度 4" source="images/色相饱和度 4.gif" x="65" y="21" width="1918" height="1040"/>
+	<mx:Image id="色相/饱和度 4 拷贝" source="images/色相饱和度 4 拷贝.gif" x="1240" y="-988" width="1289" height="1525"/>
+	<mx:Image id="b978d5a53cb8588eb260b255e77bf0a43dcfacaa4094f-r9PLCh_fw658" source="images/b978d5a53cb8588eb260b255e77bf0a43dcfacaa4094f-r9PLCh_fw658.gif" x="1233" y="878" width="110" height="125"/>
+	<mx:Image id="b978d5a53cb8588eb260b255e77bf0a43dcfacaa4094f-r9PLCh_fw658 拷贝" source="images/b978d5a53cb8588eb260b255e77bf0a43dcfacaa4094f-r9PLCh_fw658 拷贝.gif" x="448" y="866" width="114" height="81"/>
+	<mx:Image id="色相/饱和度 7" source="images/色相饱和度 7.gif" x="448" y="866" width="114" height="81"/>
+	<mx:Image id="图层 4" source="images/图层 4.gif" x="-60" y="-139" width="1920" height="1080"/>
+	<mx:Image id="图层 5" source="images/图层 5.gif" x="-72" y="-436" width="1265" height="1205"/>
+	<mx:Image id="图层 1" source="images/图层 1.gif" x="169" y="89" width="1076" height="1641"/>
+	<mx:Image id="曲线 1" source="images/曲线 1.gif" x="169" y="89" width="1076" height="1641"/>
+	<mx:Image id="黑白 1" source="images/黑白 1.gif" x="-419" y="-404" width="2312" height="1408"/>
+	<mx:Image id="图层 7" source="images/图层 7.gif" x="26" y="-76" width="1920" height="1080"/>
+	<mx:Image id="图层 8" source="images/图层 8.gif" x="0" y="-76" width="1920" height="1080"/>
+	<mx:Image id="141942O48-6" source="images/141942O48-6.gif" x="1136" y="177" width="500" height="375"/>
+	<mx:Image id="图层 10" source="images/图层 10.gif" x="355" y="10" width="177" height="96"/>
+	<mx:Label id="官网首页" styleName="labelStyle" x="621" y="49" text="官网首页"/>
+	<mx:Label id="游戏下载" styleName="labelStyle" x="749" y="49" text="游戏下载"/>
+	<mx:Label id="新闻中心" styleName="labelStyle" x="875" y="49" text="新闻中心"/>
+	<mx:Label id="游戏资料" styleName="labelStyle" x="1002" y="49" text="游戏资料"/>
+	<mx:Label id="视频影音" styleName="labelStyle" x="1129" y="49" text="视频影音"/>
+	<mx:Label id="玩家社区" styleName="labelStyle" x="1256" y="49" text="玩家社区"/>
+	<mx:Label id="客户服务" styleName="labelStyle" x="1383" y="49" text="客户服务"/>
+	<mx:Image id="矩形 1" source="images/矩形 1.gif" x="359" y="647" width="251" height="136"/>
+	<mx:Image id="图层 11" source="images/图层 11.gif" x="360" y="663" width="250" height="100"/>
+	<mx:Label id="游戏下载2" styleName="labelStyle2" x="410" y="673" text="游戏下载"/>
+	<mx:Label id="GAME DOWNLOAD" styleName="labelStyle3" x="416" y="712" text="GAME DOWNLOAD"/>
+	<mx:Image id="矩形 2" source="images/矩形 2.gif" x="359" y="750" width="251" height="58"/>
+	<mx:Label id="注册" styleName="labelStyle4" x="411" y="765" text="注册"/>
+	<mx:Label id="充值" styleName="labelStyle4" x="530" y="764" text="充值"/>
+	<mx:Image id="矩形 3" source="images/矩形 3.gif" x="619" y="647" width="711" height="281"/>
+	<mx:Image id="main_a1" source="images/main_a1.gif" x="619" y="647" width="711" height="281"/>
+	<mx:Image id="矩形 5" source="images/矩形 5.gif" x="620" y="927" width="711" height="45"/>
+	<mx:Label id="新服预约" styleName="labelStyle5" x="682" y="939" text="新服预约"/>
+	<mx:Label id="天下会武" styleName="labelStyle6" x="855" y="939" text="天下会武"/>
+	<mx:Label id="天下会武直播" styleName="labelStyle6" x="1014" y="939" text="天下会武直播"/>
+	<mx:Label id="天龙同城会" styleName="labelStyle6" x="1195" y="939" text="天龙同城会"/>
+	<mx:Image id="矩形 8" source="images/矩形 8.gif" x="620" y="926" width="179" height="4"/>
+	<mx:Image id="矩形 4" source="images/矩形 4.gif" x="1339" y="646" width="221" height="159"/>
+	<mx:Image id="矩形 4 拷贝" source="images/矩形 4 拷贝.gif" x="1340" y="804" width="220" height="167"/>
+	<mx:Image id="矩形 6" source="images/矩形 6.gif" x="359" y="806" width="252" height="166"/>
+	<mx:Label id="客服中心" styleName="labelStyle7" x="454" y="813" text="客服中心"/>
+	<mx:Image id="输入框" source="images/输入框.gif" x="384" y="844" width="201" height="23"/>
+	<mx:Label id="有问题？ 来问问畅游精灵吧" styleName="labelStyle8" x="408" y="847" text="有问题？ 来问问畅游精灵吧"/>
+	<mx:Image id="搜索" source="images/搜索.gif" x="568" y="850" width="11" height="12"/>
+	<mx:Label id="自主服务专区" styleName="labelStyle9" x="371" y="875" text="自主服务专区"/>
+	<mx:Image id="矩形 7" source="images/矩形 7.gif" x="375" y="921" width="220" height="2"/>
+	<mx:Label id="物品被盗找回" styleName="labelStyle9" x="501" y="875" text="物品被盗找回"/>
+	<mx:Label id="密码重置服务" styleName="labelStyle9" x="372" y="892" text="密码重置服务"/>
+	<mx:Label id="物品异常消失" styleName="labelStyle9" x="501" y="892" text="物品异常消失"/>
+	<mx:Label id="VIP服务热线：" styleName="labelStyle10" x="376" y="931" text="VIP服务热线："/>
+	<mx:Label id="022-583229888" styleName="labelStyle11" x="464" y="930" text="022-583229888"/>
+	<mx:Label id="（08:00-22:00会员专属通道）" styleName="labelStyle12" x="401" y="946" text="（08:00-22:00会员专属通道）"/>
+	<mx:Image id="矩形 9" source="images/矩形 9.gif" x="359" y="995" width="1201" height="613"/>
+	<mx:Image id="矩形 14" source="images/矩形 14.gif" x="1146" y="1073" width="388" height="166"/>
+	<mx:Image id="矩形 14 拷贝 2" source="images/矩形 14 拷贝 2.gif" x="1146" y="1399" width="388" height="166"/>
+	<mx:Image id="矩形 14 拷贝 3" source="images/矩形 14 拷贝 3.gif" x="1146" y="1238" width="388" height="166"/>
+	<mx:Image id="771-150210133347" source="images/771-150210133347.gif" x="1147" y="1239" width="387" height="165"/>
+	<mx:Image id="矩形 10" source="images/矩形 10.gif" x="385" y="1047" width="1149" height="4"/>
+	<mx:Image id="矩形 12" source="images/矩形 12.gif" x="385" y="1073" width="199" height="124"/>
+	<mx:Label id="最新资讯" styleName="labelStyle13" x="382" y="1012" text="最新资讯"/>
+	<mx:Label id="综合新闻" styleName="labelStyle14" x="547" y="1012" text="综合新闻"/>
+	<mx:Image id="矩形 11" source="images/矩形 11.gif" x="662" y="995" width="108" height="56"/>
+	<mx:Image id="矩形 11 拷贝" source="images/矩形 11 拷贝.gif" x="1146" y="995" width="108" height="56"/>
+	<mx:Label id="官方公告" styleName="labelStyle15" x="690" y="1012" text="官方公告"/>
+	<mx:Label id="开服送手机！ 6月8日年中大服奖励丰厚" styleName="labelStyle16" x="617" y="1071" text="开服送手机！ 6月8日年中大服奖励丰厚"/>
+	<mx:Text id="     6月8日-6月14日连续7天，每晚21：00、21：15：21：30新服将进行在线抽奖，所有参与抽奖的玩家均有机会中" x="622" y="1109" width="419" text="     6月8日-6月14日连续7天，每晚21：00、21：15：21：30新服将进行在线抽奖，所有参与抽奖的玩家均有机会中奖，5级棉布、5级秘银，iPhone X等你来拿！"/>
+	<mx:Label id="官方赛事" styleName="labelStyle14" x="831" y="1013" text="官方赛事"/>
+	<mx:Label id="社区资讯" styleName="labelStyle14" x="976" y="1013" text="社区资讯"/>
+	<mx:Label id="精美原画" styleName="labelStyle15" x="1171" y="1012" text="精美原画"/>
+	<mx:Label id="玩家截图" styleName="labelStyle14" x="1311" y="1011" text="玩家截图"/>
+	<mx:Label id="官方视频" styleName="labelStyle14" x="1435" y="1012" text="官方视频"/>
+	<mx:Image id="矩形 13 拷贝" source="images/矩形 13 拷贝.gif" x="384" y="1265" width="66" height="32"/>
+	<mx:Image id="矩形 13 拷贝 2" source="images/矩形 13 拷贝 2.gif" x="384" y="1315" width="66" height="32"/>
+	<mx:Image id="矩形 13 拷贝 3" source="images/矩形 13 拷贝 3.gif" x="384" y="1364" width="66" height="32"/>
+	<mx:Image id="矩形 13" source="images/矩形 13.gif" x="384" y="1216" width="66" height="32"/>
+	<mx:Label id="公告" styleName="labelStyle14" x="401" y="1222" text="公告"/>
+	<mx:Label id="公告2" styleName="labelStyle14" x="401" y="1271" text="公告"/>
+	<mx:Label id="公告3" styleName="labelStyle14" x="400" y="1321" text="公告"/>
+	<mx:Label id="公告4" styleName="labelStyle14" x="400" y="1370" text="公告"/>
+	<mx:Label id="06-02" styleName="labelStyle17" x="997" y="1424" text="06-02"/>
+	<mx:Label id="天下会武预选赛参赛说明公告" styleName="labelStyle17" x="475" y="1425" text="天下会武预选赛参赛说明公告"/>
+	<mx:Image id="矩形 13 拷贝 4" source="images/矩形 13 拷贝 4.gif" x="384" y="1420" width="66" height="32"/>
+	<mx:Label id="公告5" styleName="labelStyle14" x="400" y="1425" text="公告"/>
+	<mx:Label id="06-01" styleName="labelStyle17" x="998" y="1482" text="06-01"/>
+	<mx:Image id="形状 2" source="images/形状 2.gif" x="-1" y="0" width="201" height="1"/>
+	<mx:Image id="形状 3" source="images/形状 3.gif" x="0" y="0" width="255" height="1"/>
+	<mx:Image id="形状 4" source="images/形状 4.gif" x="0" y="0" width="158" height="1"/>
+	<mx:Image id="形状 5" source="images/形状 5.gif" x="-1" y="-1" width="296" height="1"/>
+	<mx:Image id="形状 6" source="images/形状 6.gif" x="-1" y="-1" width="296" height="1"/>
+	<mx:Image id="形状 7" source="images/形状 7.gif" x="-1" y="0" width="193" height="1"/>
+	<mx:Label id="6月8日年中大服火爆开启 专享十五大活动特权" styleName="labelStyle17" x="474" y="1480" text="6月8日年中大服火爆开启 专享十五大活动特权"/>
+	<mx:Image id="矩形 13 拷贝 42" source="images/矩形 13 拷贝 4.gif" x="385" y="1475" width="66" height="32"/>
+	<mx:Label id="公告6" styleName="labelStyle14" x="401" y="1481" text="公告"/>
+	<mx:Label id="06-022" styleName="labelStyle17" x="997" y="1372" text="06-02"/>
+	<mx:Label id="天下会武预选赛参赛说明公告2" styleName="labelStyle17" x="474" y="1369" text="天下会武预选赛参赛说明公告"/>
+	<mx:Label id="【天龙】6月6日天下会武预选赛晋级战队公告" styleName="labelStyle17" x="470" y="1221" text="【天龙】6月6日天下会武预选赛晋级战队公告"/>
+	<mx:Label id="4月27日“侠路争锋”火热公测公告" styleName="labelStyle17" x="475" y="1270" text="4月27日“侠路争锋”火热公测公告"/>
+	<mx:Label id="【已开服】《新天龙八部》6月7日全服更新维护公告" styleName="labelStyle17" x="470" y="1320" text="【已开服】《新天龙八部》6月7日全服更新维护公告"/>
+	<mx:Label id="06-07" styleName="labelStyle17" x="997" y="1223" text="06-07"/>
+	<mx:Label id="06-06" styleName="labelStyle17" x="997" y="1273" text="06-06"/>
+	<mx:Label id="06-04" styleName="labelStyle17" x="997" y="1322" text="06-04"/>
+	<mx:Image id="底色" source="images/底色.gif" x="359" y="1633" width="1201" height="321"/>
+	<mx:Image id="矩形 17" source="images/矩形 17.gif" x="359" y="1633" width="201" height="321"/>
+	<mx:Image id="微信" source="images/微信.gif" x="398" y="1655" width="38" height="32"/>
+	<mx:Image id="论坛选择" source="images/论坛选择.gif" x="399" y="1730" width="36" height="32"/>
+	<mx:Image id="手机" source="images/手机.gif" x="407" y="1804" width="21" height="32"/>
+	<mx:Image id="客服" source="images/客服.gif" x="402" y="1880" width="30" height="30"/>
+	<mx:Image id="36部落-2" source="images/36部落-2.gif" x="487" y="1802" width="33" height="32"/>
+	<mx:Image id="微博" source="images/微博.gif" x="486" y="1656" width="34" height="30"/>
+	<mx:Image id="游戏" source="images/游戏.gif" x="483" y="1882" width="37" height="26"/>
+	<mx:Image id="安全" source="images/安全.gif" x="489" y="1729" width="28" height="32"/>
+	<mx:Label id="微信2" styleName="labelStyle9" x="399" y="1692" text="微信"/>
+	<mx:Label id="论坛" styleName="labelStyle9" x="399" y="1766" text="论坛"/>
+	<mx:Label id="手机论坛" styleName="labelStyle9" x="385" y="1840" text="手机论坛"/>
+	<mx:Label id="在线客服" styleName="labelStyle9" x="385" y="1913" text="在线客服"/>
+	<mx:Label id="兴趣部落" styleName="labelStyle9" x="474" y="1840" text="兴趣部落"/>
+	<mx:Label id="微博2" styleName="labelStyle9" x="488" y="1692" text="微博"/>
+	<mx:Label id="畅游世界" styleName="labelStyle9" x="474" y="1913" text="畅游世界"/>
+	<mx:Label id="安全2" styleName="labelStyle9" x="489" y="1766" text="安全"/>
+	<mx:Image id="矩形 19" source="images/矩形 19.gif" x="587" y="1632" width="114" height="65"/>
+	<mx:Image id="矩形 24" source="images/矩形 24.gif" x="587" y="1695" width="444" height="4"/>
+	<mx:Label id="资料站" styleName="labelStyle15" x="619" y="1655" text="资料站"/>
+	<mx:Label id="排行榜" styleName="labelStyle18" x="785" y="1655" text="排行榜"/>
+	<mx:Label id="争霸赛" styleName="labelStyle18" x="949" y="1655" text="争霸赛"/>
+	<mx:Image id="矩形 18" source="images/矩形 18.gif" x="588" y="1696" width="443" height="258"/>
+	<mx:Label id="侠路争锋：十一周年，一路有你，一路向前" styleName="labelStyle19" x="619" y="1723" text="侠路争锋：十一周年，一路有你，一路向前"/>
+	<mx:Label id="金戌迎瑞：贺岁资料片 精彩不间断" styleName="labelStyle19" x="620" y="1760" text="金戌迎瑞：贺岁资料片 精彩不间断"/>
+	<mx:Label id="武林萌主：侠侣穿越 萌动江湖" styleName="labelStyle19" x="619" y="1796" text="武林萌主：侠侣穿越 萌动江湖"/>
+	<mx:Label id="武意纵横：太古神器乱世降临，全新武意玩法颠覆江湖" styleName="labelStyle19" x="619" y="1832" text="武意纵横：太古神器乱世降临，全新武意玩法颠覆江湖"/>
+	<mx:Label id="盛夏狂欢：第一武侠端游，携手燃情武侠电影" styleName="labelStyle19" x="619" y="1869" text="盛夏狂欢：第一武侠端游，携手燃情武侠电影"/>
+	<mx:Label id="为你而优：十周年全新资料片" styleName="labelStyle19" x="618" y="1906" text="为你而优：十周年全新资料片"/>
+	<mx:Image id="矩形 20" source="images/矩形 20.gif" x="1058" y="1632" width="43" height="65"/>
+	<mx:Label id="峨眉" styleName="labelStyle20" x="1065" y="1654" text="峨眉"/>
+	<mx:Label id="天龙" styleName="labelStyle21" x="1106" y="1654" text="天龙"/>
+	<mx:Label id="少林" styleName="labelStyle21" x="1148" y="1654" text="少林"/>
+	<mx:Label id="逍遥" styleName="labelStyle21" x="1190" y="1655" text="逍遥"/>
+	<mx:Label id="武当" styleName="labelStyle21" x="1231" y="1654" text="武当"/>
+	<mx:Label id="明教" styleName="labelStyle21" x="1273" y="1655" text="明教"/>
+	<mx:Label id="天山" styleName="labelStyle21" x="1315" y="1655" text="天山"/>
+	<mx:Label id="星宿" styleName="labelStyle21" x="1356" y="1655" text="星宿"/>
+	<mx:Label id="丐帮" styleName="labelStyle21" x="1397" y="1655" text="丐帮"/>
+	<mx:Label id="慕容" styleName="labelStyle21" x="1438" y="1655" text="慕容"/>
+	<mx:Label id="唐门" styleName="labelStyle21" x="1479" y="1655" text="唐门"/>
+	<mx:Label id="鬼谷" styleName="labelStyle21" x="1521" y="1655" text="鬼谷"/>
+	<mx:Image id="矩形 18 拷贝" source="images/矩形 18 拷贝.gif" x="1058" y="1695" width="502" height="258"/>
+	<mx:Label id="门派定位：" styleName="labelStyle22" x="1080" y="1824" text="门派定位："/>
+	<mx:Label id="治疗型辅助打手" styleName="labelStyle17" x="1157" y="1824" text="治疗型辅助打手"/>
+	<mx:Label id="门派武器：" styleName="labelStyle22" x="1080" y="1851" text="门派武器："/>
+	<mx:Label id="单短类、双短类武器" styleName="labelStyle17" x="1157" y="1851" text="单短类、双短类武器"/>
+	<mx:Label id="门派绝学：" styleName="labelStyle22" x="1080" y="1879" text="门派绝学："/>
+	<mx:Label id="金顶绵掌、九阴神爪" styleName="labelStyle17" x="1157" y="1879" text="金顶绵掌、九阴神爪"/>
+	<mx:Label id="门派特色：" styleName="labelStyle22" x="1080" y="1906" text="门派特色："/>
+	<mx:Label id="医死人肉白骨，亦有狠辣招式" styleName="labelStyle17" x="1157" y="1906" text="医死人肉白骨，亦有狠辣招式"/>
+	<mx:Image id="矩形 25" source="images/矩形 25.gif" x="1097" y="1694" width="464" height="2"/>
+	<mx:Image id="矩形 21" source="images/矩形 21.gif" x="0" y="1921" width="1920" height="220"/>
+	<mx:Image id="矩形 23" source="images/矩形 23.gif" x="0" y="2155" width="1920" height="118"/>
+	<mx:Label id="健康游戏公告" styleName="labelStyle18" x="886" y="1997" text="健康游戏公告"/>
+	<mx:Label id="抵制不良游戏　　拒绝盗版游戏　　注意自我保护　　谨防受骗上当　　适度游戏益脑　　沉迷游戏伤身　　合理安排时间　　享受健康生活" styleName="labelStyle23" x="553" y="2027" text="抵制不良游戏　　拒绝盗版游戏　　注意自我保护　　谨防受骗上当　　适度游戏益脑　　沉迷游戏伤身　　合理安排时间　　享受健康生活"/>
+	<mx:Label id="本游戏适合18周岁以上的成年人用户，未满18周岁未成年用户请在家长的监督下进行游戏" styleName="labelStyle23" x="693" y="2048" text="本游戏适合18周岁以上的成年人用户，未满18周岁未成年用户请在家长的监督下进行游戏"/>
+	<mx:Image id="矩形 22" source="images/矩形 22.gif" x="868" y="2002" width="11" height="11"/>
+	<mx:Image id="矩形 22 拷贝" source="images/矩形 22 拷贝.gif" x="994" y="2002" width="11" height="11"/>
+	<mx:Image id="形状 1" source="images/形状 1.gif" x="805" y="2006" width="58" height="2"/>
+	<mx:Image id="形状 1 拷贝" source="images/形状 1 拷贝.gif" x="1012" y="2006" width="58" height="2"/>
+	<mx:Label id="北京畅游时代数码技术有限公司版权所有 COPYRIGHT © 2011 CHANGYOU.COM LIMITED. ALL R" styleName="labelStyle8" x="587" y="2177" text="北京畅游时代数码技术有限公司版权所有 COPYRIGHT © 2011 CHANGYOU.COM LIMITED. ALL RIGHTS RESERVED. 法律声明 | 联系我们 | 家长监护"/>
+	<mx:Label id="京网文[2017]10786-1261号 | 京ICP证：070525号 | ISBN号：978-7-498-00276-1 " styleName="labelStyle24" x="587" y="2199" text="京网文[2017]10786-1261号 | 京ICP证：070525号 | ISBN号：978-7-498-00276-1 | 著作权登记号：2017SR136499"/>
+	<mx:Image id="图层 23" source="images/图层 23.gif" x="576" y="2220" width="733" height="22"/>
+	<mx:Image id="图层 22" source="images/图层 22.gif" x="373" y="2180" width="185" height="69"/>
+</mx:Application>

@@ -1,0 +1,1039 @@
+<!doctype html>
+<html>
+	 <head>
+		  <meta charset='UTF-8' />
+		  <title>天龙八部官网</title>
+		  <meta name='keywords' content='网络游戏,古装游戏' />
+		  <meta name='desription' content='一款神奇的游戏,快来一起玩吧！' />
+		  <style>
+				*{padding:0;margin:0;}
+				a{text-decoration:none;}
+				li{list-style:none;}
+				.clearfix:after{content:"";display:block;clear:both;}
+	/*背景*/		 body{
+					cursor:url('images/wrkpnlno.cur'),pointer;
+					background-image:url('images/bg.jpg');
+					background-size:cover;
+				}
+/*导航部分*/ 	#nav-head{
+					height:118px;
+					width:1108px;
+					margin:3px auto 0;
+					background:url('images/topnav.png') no-repeat 3px 10px;
+				}
+				#nav-head ul{
+					float:right;
+					height:118px;
+				}
+				#nav-head ul li{
+					float:left;
+					height:22px;
+					width:100px;
+					margin-top:48px;
+					margin-left:22px;
+					background:url('images/channels_bg.png') no-repeat 63px -115px;
+				}
+				#nav-head ul li a{
+					display:inline-block;
+					font-size:19px;
+					color:rgba(85,26,39,1);
+				}
+				#nav-head ul li a:hover{
+					color:#ff9933;
+					transition:0.5s;
+					animation:navrun 0.3s 1 linear;
+				}
+				@keyframes navrun{
+					0%{transform:translate(0px);}
+					45%{transform:translate(10px);}
+					75%{transform:translate(-10px);}
+					100%{transform:translate(0px);}
+				}
+	/*居中框架*/.banner{
+					width: 1201px;
+					height:325px;
+					margin:525px auto 0;
+					
+				}
+ 
+  /*left左部栏*/.banner .left{
+					float:left;
+					height:325px;
+					width:250px;
+					
+				}
+				.banner .left .left-img,.banner .left .left-img img{
+					height:101px;
+					width:100%;
+					transition:0.5s;
+				}
+				.banner .left .left-img:hover{
+					box-shadow:0 0 6px red;
+				}
+
+				.banner .left .left-img a{
+					display:block;
+					cursor:wait;
+					height:101px;
+					
+				}
+				
+				.banner .left .left-center{
+					height:58px;
+					width:100%;
+					background-color:#223a66;
+					
+				}
+			   .banner .left .left-center a{
+					display:inline-block;
+					width:125px;
+					height:58px;
+					padding:12px 0  0 40px;
+					font-size:25px;
+					color:#a9adb6;
+					box-sizing:border-box;
+				}
+				.banner .left .left-center a:hover{
+					background-color:#53bcff;
+				}
+				
+				.left .left-bottom{
+ 					height:166px;
+					width:100%;
+					text-align:center;
+					background-color:#354e76;
+				}
+				.left .left-bottom .left-bottom1 a{
+				
+					color:#e6e6e6;
+					margin-left:5px;
+				}
+				.left .left-bottom .left-bottom1{
+					height:37px;
+					width:100%;
+					line-height:37px;
+				}
+				.left .left-bottom .input1 .SE{
+					width:201px;
+					height:23px;
+					font-size:12px;
+					text-indent:25px;
+					color:#cc00ff;
+					background-color:#354e76;
+					border:1px solid #1b3653;
+				}
+				.left .left-bottom .input1 .SE:focus{
+					background:white;
+					box-shadow:0 0 20px #ccc;
+				}
+				.left .left-bottom .input1{
+					position:relative;
+				}
+				.left .left-bottom .input1 i{
+					position:absolute;
+					right:28px;
+					top:5px;
+					display:block;
+					height:20px;
+					width:23px;
+					background:url('images/sc.png') no-repeat;
+					background-size:16px 14px;
+				}
+				.left .left-bottom2{
+					height:45px;
+					width:202px;
+					margin:8px 0 5px 20px;
+					padding:0 0 4px 10px;
+					border-bottom:1px solid #ccc;
+				}
+				.left .left-bottom2 div p a{
+					color:#ccc;
+					font-size:14px;
+				}
+				.left .left-bottom2 div p a:hover{
+					color:white;
+				}
+				.left .left-bottom2 .bottom2-left{
+					float:left;
+				}
+				.left .left-bottom .left-bottom2-p1{
+					color:#8d96a4;
+					font-size:12px;
+				}
+				.left .left-bottom .left-bottom2-p2{
+					color:#8d96a4;
+					font-size:10px;
+				}
+				
+/*banner轮播*/ 	.banner .center{
+					float:left;
+					height:100%;
+					width:710px;
+					padding-top:280px;
+					margin:0px 10px 0 10px;
+					box-sizing:border-box;
+				}
+				.banner .center .shell{
+					
+					height:45px;
+					width:710px;
+				}
+				.banner .center .shell li{
+					position:relative;
+					float:left;
+					height:45px;
+					width:177px;
+					line-height:45px;
+					text-align:center;
+					color:#898989;
+				}
+				.banner .center .shell li label{
+					position:absolute;
+					left:0;
+					top:0;
+					height:45px;
+					width:177px;
+					background-color:black;
+					transition:0.5s;
+					
+				}
+				.banner .center .shell li input:checked + label{
+					background-color:pink;
+					transform:scale(1.1);
+					z-index:999;
+				}
+				.banner .center .shell li .pic{
+					opacity:0;
+					position:absolute;
+					left:0;
+					top:0;
+					width:710px;
+					height:280px;
+					transition:2s;
+				}
+				.banner .center .shell li input:checked + label + .pic{
+					opacity:1;
+				}
+/*checked动画*/	.banner .center .shell li .pic1{
+					top:-278px;
+					left:0px;
+					background:url('images/banner1.png') no-repeat 0 0/cover;
+					animation:run 25s infinite linear;
+				}
+				@keyframes run{
+					0%{background:url('images/banner1.png') no-repeat 0 0/cover;}
+					45%{background:url('images/banner2.png') no-repeat 0 0/cover;}
+					75%{background:url('images/banner3.png') no-repeat 0 0/cover;}
+					100%{background:url('images/banner4.png') no-repeat 0 0/cover;}
+
+				}
+	/*定位图片*/.banner .center .shell li .pic2{
+					top:-278px;
+					left:-177px;
+					background:url('images/banner2.png') no-repeat 0 0/cover;
+
+				}
+				.banner .center .shell li .pic3{
+					top:-278px;
+					left:-354px;
+					background:url('images/banner3.png') no-repeat 0 0/cover;
+
+				}
+				.banner .center .shell li .pic4{
+					top:-278px;
+					left:-531px;
+					background:url('images/banner4.png') no-repeat 0 0/cover;
+
+				}
+				.banner .center .shell li .wdh {
+					width:179px;
+				}
+/*右部栏*/		.banner .right{
+					float:right;
+					height:325px;
+					width:220px;
+					font-size:0;
+				}
+				.banner .right .right-a1{
+					display:block;
+					height:159px;
+					width:220px;
+				}
+				.banner .right .right-a2{
+					display:block;
+					height:166px;
+					width:220px;
+				}
+
+/*公告信息块*/	.message{
+					height:613px;
+					width:1201px;
+					margin:25px auto;
+					background-color:rgba(246,240,242,0.6);
+				}
+/*资讯左侧块*/	.message .summary{
+					float:left;
+					height:613px;
+					width:680px;
+					margin-left:25px;
+				
+				}
+				.message .summary #smy-nav{
+					height:51px;
+					border-bottom:4px solid #f0c0d0;
+				}
+				.message .summary #smy-nav h1{
+					float:left;
+					display:inline-block;
+					height:51px;
+					width:124px;
+					font-size:24px;
+					font-weight:400;
+					line-height:56px;
+				}
+				.message .summary #smy-nav ul li{
+					float:left;
+					height:51px;
+					width:137px;
+					line-height:51px;
+					text-align:center;
+					
+				}
+				.message .summary #smy-nav ul li a{
+					display:inline-block;
+					height:51px;
+					width:137px;
+					color:rgba(85,26,139,1);
+				}
+				.message .summary #smy-nav ul .color-smy{
+					background-color:#f0c0d0;
+				}
+				.message .summary #smy-nav ul li:hover{
+					background-color:#f0c0d0;
+				}
+				.message .summary .phone{
+					height:123px;
+					width:100%;
+					margin-top:25px;
+				
+				}
+				.message .summary .phone a{
+					/*display:inline-block;*/
+					float:left;
+					height:123px;
+					width:200px;
+				}
+				.message .summary .phone a img{
+					border-left:1px solid#ccc;
+					border-right:1px solid black;
+				}
+				.message .summary .phone .phone-word{
+					float:left;
+					width:424px;
+					height:100%;
+					margin-left:30px;
+					
+				}
+				.message .summary .phone .phone-word h1{
+					font-size:23px;
+					font-weight:400;
+				}
+				.message .summary .phone .phone-word p{
+					margin-top:10px;
+					text-align:justify;
+					text-indent:2em;
+					font-size:14px;
+					color:#7b787f;
+				}
+				.message .summary .notice{
+					
+					width:100%;
+					height:360px;
+					margin-top:20px;
+					
+				}
+				.message .summary .notice ul li{
+					position:relative;
+					height:32px;
+					margin-top:17px;
+				}
+				.message .summary .notice ul li span{
+					float:left;
+					height:32px;
+					width:66px;
+					color:#4d4d4d;
+					line-height:32px;
+					text-align:center;
+					background-color:#ccc6c8;
+				}
+				.message .summary .notice ul li p{
+					float:left;
+					height:32px;
+					font-size:15px;
+					line-height:32px;
+					text-indent:17px;
+				}
+				.message .summary .notice ul li img{
+					
+					position:absolute;
+					right:90px;
+					top:23px;
+				}
+				.message .summary .notice ul li i{
+					position:absolute;
+					right:40px;
+					top:7px;
+					font-style:normal;
+				}
+	/*玩家右侧*/	.message .Player{
+					float:right;
+					height:612px;
+					width:386px;
+				}
+				.Player .Player-smy{
+					height:51px;
+					border-bottom:4px solid #f0c0d0;
+				}
+				.Player .Player-smy ul li{
+					float:left;
+					height:51px;
+					width:126px;
+					line-height:51px;
+					text-align:center;
+				}
+				.Player .Player-smy ul .default{
+					background-color:#f0c0d0;
+				}
+				.Player .Player-smy ul li:hover{
+					background-color:#f0c0d0;
+				}
+				.Player .Player-smy ul li a{
+					display:inline-block;
+					height:51px;
+					width:128px;
+					color:rgba(85,26,139,1);
+				}
+				.Player .game-show{
+					height:533px;
+					margin-top:23px;
+					font-size:0;
+				}
+				.Player .game-show a{
+					display:inline-block;
+					width:386px;
+					height:164px;
+				}
+/*属性排行*/	.property{
+					height:321px;
+					width:1201px;
+					margin:0 auto;
+					background-color:#f0e1e6;
+				}
+/*logo链接*/	.property .online{
+					float:left;
+					height:321px;
+					width:201px;
+					background-color:#354e76;
+				}
+				.property .online ul li .case{
+					float:left;
+					width:100.5px;
+					height:80px;
+					text-align:center;
+					padding:12px 18px;
+					box-sizing:border-box;
+					
+				}
+				.property .online ul li{
+					overflow:hidden;
+				}
+				.property .online ul li .case i{
+					display:block;
+					width:38px;
+					height:35px;
+					margin:0 auto;
+					margin-bottom:2px;
+				}
+				.property .online ul li .case .icon1{
+					background:url('images/1_13.png') no-repeat 0 0/cover;
+				}
+				.property .online ul li .case .icon2{
+					background:url('images/1_14.png') no-repeat 0 0/cover;
+				}
+				.property .online ul li .case .icon3{
+					background:url('images/1_15.png') no-repeat 0 0/cover;
+				}
+				.property .online ul li .case .icon4{
+					background:url('images/1_16.png') no-repeat 0 0/cover;
+				}
+				.property .online ul li .case .icon5{
+					background:url('images/1_17.png') no-repeat 0 0/cover;
+				}
+				.property .online ul li .case .icon6{
+					background:url('images/1_18.png') no-repeat 0 0/cover;
+				}
+				.property .online ul li .case .icon7{
+					background:url('images/1_19.png') no-repeat 0 0/cover;
+				}
+				.property .online ul li .case .icon8{
+					background:url('images/1_20.png') no-repeat 0 0/cover;
+				}
+				.property .online ul li .case a{
+					color:#b6b9be;
+				}
+				.property .online ul li .case a:hover{
+					color:white;
+				}
+/*中间排行榜*/	.property .ranking{
+					float:left;
+					height:321px;
+					width:443px;
+					margin-left:28px;
+					
+				}
+				.property .ranking .ranking-nav{
+					height:63px;
+					width:443px;
+					border-bottom:4px solid #f0c0d0;
+				}
+				.property .ranking .ranking-nav ul li{
+					float:left;
+					width:148px;
+					height:63px;
+					text-align:center;
+					line-height:63px;
+				}
+				.property .ranking .ranking-nav ul li a{
+					display:inline-block;
+					height:63px;
+					width:148px;
+					color:rgba(85,26,139,1);
+				}
+				.property .ranking .ranking-nav ul .list1{
+					background-color:#f0c0d0;
+				}
+				.property .ranking .ranking-nav ul li:hover{
+					background-color:#f0c0d0;
+				}
+				.property .ranking .content1{
+					position:relative;
+					height:257px;
+					width:443px;
+				}
+				.property .ranking .content1 .opci-pic{
+					position:absolute;
+					left:0;
+					top:-20px;
+					height:254px;
+					width:443px;
+					background:url('images/zu3.png') no-repeat 0 0/cover;
+					opacity:0.3;
+				}
+				.property .ranking .content1 ul li{
+					font-size:14px;
+					margin-top:20px;
+					text-indent:2em;
+				}
+	/*门派属性*/.property .role{
+					float:right;
+					width:502px;
+					height:321px;
+				}
+				.property .role .role-nav{
+					height:63px;
+					width:502px;
+					border-bottom:4px solid #f0c0d0;
+				}
+				.property .role .role-nav ul li{
+					float:left;
+					height:63px;
+					width:45px;
+					line-height:63px;
+					text-align:center;
+				}
+				.property .role .role-nav ul li a{
+					display:inline-block;
+					height:63px;
+					width:45px;
+					color:rgba(85,26,139,1);
+				}
+				.property .role .role-nav ul li:nth-child(1){
+					width:52px;
+					background-color:#f0c0d0;
+				}
+				.property .role .role-nav ul li:hover{
+					background-color:#f0c0d0;
+				}
+				.property .role .skill{
+					height:254px;
+					width:502px;
+					background:url('images/1_22.png') no-repeat 0 0/cover;
+					
+				}
+				.property .role .skill ul{
+					padding-top:113px;
+				}
+				.property .role .skill ul li{
+					margin-top:13px;
+					font-size:14px;
+					text-indent:2em;
+				}
+/*游戏健康公告*/.footer1{
+					width:100%;
+					height:130px;
+					margin:0 auto;
+					padding-top:55px;
+					background:linear-gradient(white,#f1e2e7);
+				}
+				.footer1 .notice-top{
+					position:relative;
+					width:260px;
+					height:12px;
+					margin:0 auto;
+					background-image:url('images/123-2.png');
+					
+				}
+				.footer1 .notice-top h3{
+					position:absolute;
+					top:-7px;
+					left:80px;
+					font-size:17px;
+					font-weight:400;
+				}
+				.footer1 .notice-top .diamonds{
+					position:absolute;
+					height:10px;
+					width:10px;
+					background-image:url('images/1234-1.png');
+				}
+				.footer1 .notice-top .one{
+					left:60px;
+				}
+				.footer1 .notice-top .two{
+					right:60px;
+				}
+				.footer1 .footer1-word{
+					text-align:center;
+					word-spacing:13px;
+					margin-top:13px;
+					font-size:13px;
+					line-height:22px;
+					color: rgba(17, 18, 5, 0.58);
+				}
+	/*页脚*/	footer{
+					height:93px;
+					width:100%;
+					margin:0 auto;
+					padding-top:37px;
+					background-color:#f0f0f0;
+				}
+				footer .copyright{
+					height:65px;
+					width:1060px;
+					margin:0 auto;
+					background:url('images/cy.png');
+					background-repeat:no-repeat;
+					/*margin:37px auto 0;*/
+					
+				}
+				footer .copyright p{
+					font-size:12px;
+					color:#999;
+					margin-left:208px;
+				}
+				footer .copyright span{
+					color:rgba(111,111,111,1);
+				}
+				footer .copyright .line3{
+					background-image:url('images/1_53.png');
+					background-repeat:no-repeat;
+					text-indent:2em;
+				}
+				footer .copyright p i{
+					font-style:normal;
+					color:black;
+				}
+				footer .copyright p a{
+					color:#000033;
+				}
+				footer .copyright p:nth-child(1){
+					padding-top:8px;
+				}
+				
+	/*固定窗口*/.fixed{
+					position:fixed;
+					right:150px;
+					top:645px;
+					height:70px;
+					width:35px;
+					border:1px solid #ccc;
+				}
+				.fixed ul li{
+					position:relative;
+				}
+				.fixed ul li span{
+					position:absolute;
+					left:0;
+					top:0;
+					height:35px;
+					width:35px;
+					background-color:pink;
+					font-size:12px;
+					text-align:center;
+					color:white;
+				}
+				.fixed ul li em{
+					opacity:0;
+					position:absolute;
+					left:0px;
+					top:0px;
+					height:33px;
+					width:73px;
+					font-style:normal;
+					text-align:center;
+					line-height:32px;
+					border-radius:5px;
+					background-color:#ccffff;
+					transition:1s;
+				}
+				.fixed ul li em:after{
+					content:'';
+					display:block;
+					position:absolute;
+					left:-5px;
+					top:10px;
+					height:10px;
+					width:10px;
+					transform:rotate(45deg);
+					background-color:#ccffff;
+				}
+				.fixed ul li:hover em{
+					opacity:1;
+					left:47px;
+				}
+				.fixed .three{
+					position:absolute;
+					left:0;
+					bottom:0;
+					height:15px;
+					width:15px;
+					border:1px solid pink;
+				}
+				.fixed .three2{
+					position:absolute;
+					right:0px;
+					bottom:0px;
+					height:15px;
+					width:15px;
+					border:1px solid pink;
+					
+				}
+				.fixed:hover .three2,.fixed:hover .three{
+					animation:pao 5s infinite linear;
+				}
+				@keyframes pao{
+					 0%{transform:translateY(0px);}
+					15%{transform:translateY(25px);}
+					25%{
+						transform:translateY(20px);
+						box-shadow:0 0 10px #ff3333;
+						
+					}
+					30%{
+						transform:translatez(5px);
+						background-image:linear-gradient(white,#ff0000);
+					}
+					35%{transform:translateY(25px);}
+					45%{
+						transform:translateY(20px);
+						box-shadow:0 0 10px #ff0000;
+						transform:translateY(25px);
+					}
+					55%{transform:translateY(20px);
+						box-shadow:0 0 10px #ff0000;
+						transform:translateY(25px);
+					}
+					65%{
+						border-top:none;
+						transform:translateY(20px);
+						box-shadow:0 0 10px #ff0000;	
+						
+					}
+					75%{
+						border-top:none;
+						border-bottom:none;
+						transform:translateY(25px);
+						box-shadow:0 0 10px #ff0000;
+						
+					}
+					85%{
+						border-top:none;
+						border-bottom:none;
+						transform:translateY(20px);
+					}
+					95%{
+						border-top:none;
+						border-bottom:none;
+						transform:translateY(25px);
+						box-shadow:0 0 15px #ff0000;
+					}
+					100%{transform:translateY(0px);}
+				}
+		  </style>
+		
+	 </head>
+	 <body> 
+		<nav id="nav-head">
+			<ul class="clearfix">
+				<li><a href="#gohome">官网首页</a></li>
+				<li><a href="javascript:;">游戏下载</a></li>
+				<li><a href="javascript:;">新闻中心</a></li>
+				<li><a href="javascript:;">游戏资料</a></li>
+				<li><a href="javascript:;">视频影音</a></li>
+				<li><a href="javascript:;">玩家社区</a></li>
+				<li><a href="javascript:;">客户服务</a></li>
+			</ul>
+		</nav>
+		<section class="banner clearfix">
+			<div class="left">                 <!--banner-left-->
+                <div class="left-img">
+					<a href="javascript:;"><img src="images/游戏下载.png" alt="游戏下载" title="点我下载" /></a>
+				</div>
+				<div class="left-center">
+					<a href="javascript:;">注册</a><a href="javascript:;" class="a-right">充值</a>
+				</div>
+				<div class="left-bottom">
+					<div class="left-bottom1"><a href="javascript:;">客户中心</a></div>
+					<div class="input1">
+						<input type="text" class="SE"  placeholder="有问题？来问问畅游精灵吧" />
+						<i></i>
+					</div>
+					<div class="left-bottom2 clearfix">
+						<div class="bottom2-left">
+							<p><a href="javascript:;">自主服务专区</a></p>
+							<p><a href="javascript:;">密码重置服务</a></p>
+						</div>
+						<div class="bottom2-right">
+							<p><a href="javascript:;">物品被盗找回</a></p>
+							<p><a href="javascript:;">物品异常消失</a></p>
+						</div>
+					</div>
+					<p class="left-bottom2-p1">VIPQQ服务热线:177-544-58</p>
+						<p class="left-bottom2-p2">(1:00-5:00会员专属通道)</p>
+				</div>
+			</div>
+			
+			<div class="center">                         <!--banner-center-->
+				<ul class="shell fixclear">
+					<li>
+						<input type="radio" name="tab" checked id="xin">
+						<label for="xin">新服预约</label>
+						<div class="pic pic1"></div>
+					</li>
+					<li>
+						<input type="radio" name="tab" id="tian">
+						<label for="tian">天下会武</label>
+						<div class="pic pic2"></div>
+					</li>
+					<li>
+						<input type="radio" name="tab" id="xia">
+						<label for="xia">天下会武直播</label>
+						<div class="pic pic3"></div>
+					</li>
+					<li>
+						<input type="radio" name="tab" id="long">
+						<label for="long" class="wdh">天下龙城会</label>
+						<div class="pic pic4"></div>
+					</li>
+				</ul>
+			</div>
+			<div class="right">                <!--banner-right-->
+				<div>
+					<a href="javascript:;" class="right-a1">
+						<img src="images/l-banner.png" height="159px" width="100%" alt="人气专区" title="点我" />
+					</a>
+				</div>
+				<div>
+					<a href="javascript:;" class="right-a2">
+						<img src="images/l-banner2.png" height="166px" width="100%" alt="VIP特权" title="快点我" />
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="message clearfix">		<!--资讯-->
+			<div class="summary">     <!--左侧-->
+				<nav id="smy-nav" class="clearfix">
+					<h1>最新资讯</h1>
+					<ul class="clearfix">
+						<li class="color-smy"><a href="#">综合新闻</a></li>
+						<li><a href="javascript:;">官方公告</a></li>
+						<li><a href="javascript:;">官方赛事</a></li>
+						<li><a href="javascript:;">社会资讯</a></li>
+					</ul>
+				</nav>
+				<aside class="phone clearfix">		<!--开服活动-->	
+					<a href="javascript:;"><img src="images/1_03.png" alt="抽奖" title="在线抽奖" /></a>
+						<div class="phone-word">
+							<h1>开服送手机！6月8日年中大服装奖励丰厚</h1>
+							<p>7月3日-7月6日连续4天，每晚21：00、21：15、21：30新服将进行在线抽奖，所有参与抽奖的玩家均有机会中奖，5级棉布、5级秘银，华为p20等你来拿!</p>
+						</div>
+				</aside>
+				<aside class="notice">   <!--公告栏目-->
+					<ul>
+						<li>
+							<span>公告</span>
+							<p>【天龙】7月8日天下会武预选赛晋级战队公告</p>
+							<img src="images/line2.png" width="187px" />
+							<i>6-28</i>
+						</li>
+						<li>
+							<span>公告</span>
+							<p>4月27日"侠路争锋"火热公测公告</p>
+							<img src="images/line2.png" width="270px" />
+							<i>6-28</i>
+						</li>
+						<li>
+							<span>公告</span>
+							<p>【已开服】《新天龙八部》7月10日全服更新维护公告</p>
+							<img src="images/line2.png" width="132px" />
+							<i>6-28</i>
+						</li>
+						<li>
+							<span>公告</span>
+							<p>天下会武预选参赛说明公告</p>
+							<img src="images/line2.png" width="310px" />
+							<i>6-28</i>
+						</li>
+						<li>
+							<span>公告</span>
+							<p>天下会武预选参赛名单公告</p>
+							<img src="images/line2.png" width="310px" />
+							<i>6-28</i>
+						</li>
+						<li>
+							<span>公告</span>
+							<p>7月10日年中大服火爆开启 专享十五大活动特权</p>
+							<img src="images/line2.png" width="167px" />
+							<i>6-28</i>
+						</li>
+					</ul>
+				</aside>
+			</div>	
+			<aside class="Player">	<!--官方玩家-右侧--> 
+				<nav class="Player-smy">
+					<ul class="clearfix"> 
+						<li class="default"><a href="#">精美原画</a></li>
+						<li><a href="javascript:;">玩家截图</a></li>
+						<li><a href="javascript:;">官方视频</a></li>
+					</ul>
+				</nav>
+				<ul class="game-show">	<!--游戏体验-->
+						<li>
+							<a href="javascript:;"><img src="images/1_05.png" /></a>
+						</li>
+						<li>
+							<a href="javascript:;"><img src="images/1_09.png" /></a>
+						</li>
+						<li>
+							<a href="javascript:;"><img src="images/1_10.png"/></a>
+						</li>
+				</ul>
+			</aside>
+		</section>
+		<section class="property clearfix">
+			<aside class="online">					<!--logo链接-->
+				<ul>
+					<li>
+						<div class="case"><i class="icon1"></i><a href="javascript:;">微信</a></div>
+						<div class="case"><i class="icon2"></i><a href="javascript:;">微博</a></div>
+					</li>
+					<li>
+						<div class="case"><i class="icon3"></i><a href="javascript:;">论坛</a></div>
+						<div class="case"><i class="icon4"></i><a href="javascript:;">安全</a></div>
+					</li>
+					<li>
+						<div class="case"><i class="icon5"></i><a href="javascript:;">手机论坛</a></div>
+						<div class="case"><i class="icon6"></i><a href="javascript:;">兴趣部落</a></div>
+					</li>
+					<li>
+						<div class="case"><i class="icon7"></i><a href="javascript:;">在线客户</a></div>
+						<div class="case"><i class="icon8"></i><a href="javascript:;">畅游世界</a></div>
+					</li>
+				</ul>
+			</aside>
+			<aside class="ranking">                    <!--中间排行榜..-->
+				<nav class="ranking-nav">
+					<ul class="clearfix">
+						<li class="list1"><a href="#">资料站</a></li>
+						<li><a href="javascript:;">排行榜</a></li>
+						<li style="width:147px;"><a href="javascript:;">争霸赛</a></li>
+					</ul>
+				</nav>
+				<div class="content1">
+					<span class="opci-pic"></span>
+					<ul>
+						<li>狭路争锋：十一周年，一路有你，一路向前</li>
+						<li>金戌迎瑞：贺岁资料片 精彩不间断</li>
+						<li>武林盟主：侠侣穿越 萌动江湖</li>
+						<li>武意纵横：太古神器乱世降临，全新武意玩法颠覆江湖</li>
+						<li>盛夏狂欢：第一武侠端游，携手燃情武侠电影</li>
+						<li>为你而优：十周年全新资料片</li>
+					</ul>
+				</div>
+			</aside>
+			<aside class="role">					<!--右侧门派属性-->
+				<nav class="role-nav">
+					<ul class="clearfix">
+						<li><a href="javascript:;">峨眉</a></li>
+						<li><a href="javascript:;">天龙</a></li>
+						<li><a href="javascript:;">少林</a></li>
+						<li><a href="javascript:;">武当</a></li>
+						<li><a href="javascript:;">明教</a></li>
+						<li><a href="javascript:;">天山</a></li>
+						<li><a href="javascript:;">星宿</a></li>
+						<li><a href="javascript:;">丐帮</a></li>
+						<li><a href="javascript:;">慕容</a></li>
+						<li><a href="javascript:;">唐门</a></li>
+						<li><a href="javascript:;">鬼谷</a></li>
+					</ul>
+				</nav>
+				<div class="skill">
+					<ul>
+						<li>门派定位：治疗型辅助打手</li>
+						<li>门派武器：单短类、双短类武器</li>
+						<li>门派绝学：金顶绵掌、九阴神爪</li>
+						<li>门派定位：医死人肉白骨，亦有狠辣招式</li>
+					</ul>
+				</div>
+			</aside>
+		</section>
+		<section class="footer1">				<!--健康公告-->
+			<div class="notice-top">
+				<span class="diamonds one"></span>
+				<h3>游戏健康公告</h3>
+				<span class="diamonds two"></span>
+			</div>
+			<div class="footer1-word">
+				<p>抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防上当受骗 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+				<p>本游戏适合18周岁以上的成年人用户，未满18周岁未成年用户请在家长的监督下进行游戏</p>
+			</div>
+		</section>
+		<footer>										<!--页脚版权-->
+			<div class="copyright">
+				<p>北京畅游时代数码技术有限公司版权所有 COPYRIGHT·2011 CHANGYOU.COM LIMITED. ALLRIGHTS RESERVED <a href="javascript:;">法律声明</a> 丨 <a href="javascript:;">联系我们</a> 丨 <a href="javascript:;">家长监护</a></p>
+				<p><i>京网文[2017]10786-1261号</i> 丨 京ICP证：<i>070525</i>号 丨 ISBN号：<i>978-7-498-00276-1</i> 丨 著作权登记号：<i>2017SR136499</i></p>
+				<p class="line3"><span>京公网安备11010702000007号</span> 丨 文网游备字：<span>[2017]C-RPG0026号</span> 丨 新广出审：<span>[2017]7244</span>号 丨 全国文化市场举报电话：<span>12318</span></p>
+			</div>
+		</footer>
+		<div class="fixed">
+			<ul>
+				<li>
+					<em><a href="#" id="gohome">官网首页</a></em>
+					<span>回到顶部</span>
+				</li>
+			</ul>
+			<div class="three"></div>
+			<div class="three2"></div>
+		</div>
+	 </body>
+</html>
